@@ -1,21 +1,36 @@
 body {
   margin: 0;
   font-family: "Outfit", sans-serif;
-  background-color: aqua;
+  background-color: rgba(240, 240, 240, 255);
 }
 .container {
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 90%;
+  width: 60%;
   transform: translate(-50%, -50%);
+  display: block;
 }
 
 .card-container {
-  display: block;
+  display: flex;
+  height: 35rem;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   width: 100%;
   background-color: hsl(212, 45%, 89%);
   border-radius: 1rem;
-  box-shadow: 0 2rem 3rem -1rem gray;
+  box-shadow: 0 2rem 4rem -1rem hsl(220, 15%, 55%);
+}
+
+.qr-container {
+  background-color: aliceblue;
+  width: 25%;
+  border-radius: 1rem;
+  box-shadow: 0 2rem 4rem -1rem hsl(220, 15%, 55%);
+}
+img {
+  max-width: 200px;
+  width: 500px;
 }
