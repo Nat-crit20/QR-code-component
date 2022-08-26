@@ -8,6 +8,7 @@ body {
   top: 50%;
   left: 50%;
   width: 60%;
+  min-width: 350px;
   transform: translate(-50%, -50%);
   display: block;
 }
@@ -21,16 +22,24 @@ body {
   width: 100%;
   background-color: hsl(212, 45%, 89%);
   border-radius: 1rem;
-  box-shadow: 0 2rem 4rem -1rem hsl(220, 15%, 55%);
+  box-shadow: 0 2rem 8rem -3rem hsl(220, 15%, 55%);
 }
 
 .qr-container {
-  background-color: aliceblue;
-  width: 25%;
+  margin: 0;
+  padding: 1rem;
+  background-color: hsl(0, 0%, 100%);
+  width: 20%;
+  min-width: 250px;
   border-radius: 1rem;
-  box-shadow: 0 2rem 4rem -1rem hsl(220, 15%, 55%);
+  box-shadow: 0 2rem 8rem -3rem hsl(220, 15%, 55%);
+  font-size: 15px;
 }
 img {
   max-width: 200px;
   width: 500px;
+  border-radius: 1rem;
+}
+.qr-container header {
+  margin: 20px;
 }
