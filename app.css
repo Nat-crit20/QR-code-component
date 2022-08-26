@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  background-color: aqua;
+}
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.card-container {
+  display: block;
+  text-align: center;
+  width: 100%;
+  background-color: hsl(212, 45%, 89%);
+  border-radius: 1rem;
+  box-shadow: 0 2rem 3rem -1rem gray;
+}
