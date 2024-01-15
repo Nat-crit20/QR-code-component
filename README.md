@@ -36,4 +36,4 @@ From this I learned that I need to review more into responsive sizing, maybe loo
 
 ## Author
 
-- Frontend Mentor - [@Val7997](https://www.frontendmentor.io/profile/Val7997)
+- Frontend Mentor - [@Nat-crit20](https://www.frontendmentor.io/profile/Nat-crit20)
